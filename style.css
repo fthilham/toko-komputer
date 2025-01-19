@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;500;800&display=swap");
+
+:root {
+  --main-color: salmon;
+}
+*,
+html,
+body {
+  font-family: "Kanit", sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+.my-nav {
+  background-color: lightblue;
+  height: auto;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: var(--main-color);
+}
+
+.description {
+  font-size: 1.2em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 1px black;
+}
+
+.mybg {
+  background-image: url(assets/images/store_9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+.subtitle {
+  font-weight: 500;
+  color: var(--main-color);
+  font-size: 2em;
+  letter-spacing: 4px;
+  line-height: 1;
+}
+
+.subdescription {
+  color: black;
+  font-weight: 200;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.konten {
+  background-color: rgb(164, 208, 228);
+}
+
+.link {
+  text-decoration: none;
+  color: grey;
+}
+
+.img-thumbnail {
+  border: none;
+  border-radius: 20px;
+}
